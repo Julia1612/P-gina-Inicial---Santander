@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.link-você {
+    color: rgb(226, 7, 7); /*troca a cor do texto*/
+    margin-left: 40px; /*margem lado esquedo*/
+    font-size: 20px; /*tamanho da fonte*/
+    font-weight: 700; /*grossura da fonte*/
+    cursor: pointer;
+}
+
+.link-você:hover {
+    text-decoration: underline;
+}
+
+.link-empresa {
+    color: black; /*troca a cor do texto*/
+    margin-left: 30px; /*margem lado esquedo*/
+    font-size: 20px; /*tamanho da fonte*/
+    cursor: pointer;
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 130px; /*largura*/
+}
+
+.caixa {
+    padding: 25px; /*espassamento interno*/
+}
+
+.background {
+    width: 100%;
+}
+
+h3 {
+    margin-left: 200px;
+    margin-top: 60px; /*margem em cima*/
+    font-size: 40px;
+
+}
+
+li {
+    height: 150px; /*altura do elemento*/
+    width: 190px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    padding-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icones-produtos {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /*espassamento entre os itens*/
+    margin-top: 50px;
+}
